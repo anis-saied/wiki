@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <blockquote>
+      <ol>
+        <li>
+          M&nbsp;<font color="#66cc66">=</font>&nbsp;<font color="#483d8b"
+            >&quot;LE&nbsp;TRESOR&nbsp;EST&nbsp;CACHE&nbsp;DANS&nbsp;LE&nbsp;CHATEAU&nbsp;DE:&nbsp;SUITE&nbsp;AU&nbsp;PROCHAIN&nbsp;MESSAGE!&quot;</font
+          >
+        </li>
+        <li>&nbsp;</li>
+        <li>
+          <font color="#808080"
+            >#&nbsp;fonction&nbsp;qui&nbsp;décale&nbsp;de&nbsp;d&nbsp;positions&nbsp;la&nbsp;lettre&nbsp;c</font
+          >
+        </li>
+        <li>
+          <font color="#ff7700">def</font>&nbsp;cesar1<font>&#40;</font>c<font
+            color="#66cc66"
+            >,</font
+          >d<font>&#41;</font>:
+        </li>
+        <li>
+          &nbsp;&nbsp;&nbsp;&nbsp;alphabet&nbsp;<font color="#66cc66">=</font
+          >&nbsp;<font color="#483d8b"
+            >&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</font
+          >
+        </li>
+        <li>
+          &nbsp;&nbsp;&nbsp;&nbsp;n&nbsp;<font color="#66cc66">=</font
+          >&nbsp;<font color="#008000">len</font><font>&#40;</font>alphabet<font
+            >&#41;</font
+          >
+        </li>
+        <li>
+          &nbsp;&nbsp;&nbsp;&nbsp;<font color="#ff7700">for</font
+          >&nbsp;i&nbsp;<font color="#ff7700">in</font>&nbsp;<font
+            color="#008000"
+            >range</font
+          ><font>&#40;</font>n<font>&#41;</font>:
+        </li>
+        <li>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#ff7700"
+            >if</font
+          >&nbsp;c&nbsp;<font color="#66cc66">==</font
+          >&nbsp;alphabet<font>&#91;</font>i<font>&#93;</font>:
+        </li>
+        <li>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+            color="#ff7700"
+            >return</font
+          ><font>&#40;</font>alphabet<font>&#91;</font
+          ><font>&#40;</font>i+d<font>&#41;</font>&nbsp;%&nbsp;n<font
+            >&#93;</font
+          ><font>&#41;</font>&nbsp;<font color="#808080"
+            >#&nbsp;%n&nbsp;:&nbsp;pour&nbsp;un&nbsp;parcours&nbsp;circulaire</font
+          >
+        </li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;<font color="#ff7700">else</font>:</li>
+        <li>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#ff7700"
+            >return</font
+          ><font>&#40;</font>c<font>&#41;</font>&nbsp;<font color="#808080"
+            >#retourner&nbsp;le&nbsp;même&nbsp;caractère&nbsp;sans&nbsp;modification</font
+          >
+        </li>
+        <li>&nbsp;</li>
+        <li>
+          <font color="#ff7700">print</font><font>&#40;</font>cesar1<font
+            >&#40;</font
+          ><font color="#483d8b">&quot;A&quot;</font
+          ><font color="#66cc66">,</font><font color="#ff4500">3</font
+          ><font>&#41;</font><font>&#41;</font>
+        </li>
+        <li>
+          <font color="#ff7700">print</font><font>&#40;</font>cesar1<font
+            >&#40;</font
+          ><font color="#483d8b">&quot;Z&quot;</font
+          ><font color="#66cc66">,</font><font color="#ff4500">3</font
+          ><font>&#41;</font><font>&#41;</font>
+        </li>
+        <li>
+          <font color="#ff7700">print</font><font>&#40;</font>cesar1<font
+            >&#40;</font
+          ><font color="#483d8b">&quot;z&quot;</font
+          ><font color="#66cc66">,</font><font color="#ff4500">3</font
+          ><font>&#41;</font><font>&#41;</font>
+        </li>
+        <li>&nbsp;</li>
+        <li>
+          <font color="#ff7700">def</font>&nbsp;cesar<font>&#40;</font>m<font
+            color="#66cc66"
+            >,</font
+          >d<font>&#41;</font>:
+        </li>
+        <li>
+          &nbsp;&nbsp;&nbsp;&nbsp;mc&nbsp;<font color="#66cc66">=</font
+          >&nbsp;<font color="#483d8b">&quot;&quot;</font>
+        </li>
+        <li>
+          &nbsp;&nbsp;&nbsp;&nbsp;<font color="#ff7700">for</font
+          >&nbsp;c&nbsp;<font color="#ff7700">in</font>&nbsp;m:
+        </li>
+        <li>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mc&nbsp;<font
+            color="#66cc66"
+            >=</font
+          >&nbsp;mc&nbsp;+&nbsp;cesar1<font>&#40;</font>c<font color="#66cc66"
+            >,</font
+          >d<font>&#41;</font>
+        </li>
+        <li>
+          &nbsp;&nbsp;&nbsp;&nbsp;<font color="#ff7700">return</font
+          ><font>&#40;</font>mc<font>&#41;</font>
+        </li>
+        <li>&nbsp;</li>
+        <li>
+          <font color="#808080"
+            >#&nbsp;le&nbsp;codage&nbsp;de&nbsp;César:&nbsp;d&nbsp;=&nbsp;3</font
+          >
+        </li>
+        <li>
+          MC&nbsp;<font color="#66cc66">=</font
+          >&nbsp;cesar<font>&#40;</font>M<font color="#66cc66">,</font
+          ><font color="#ff4500">9</font><font>&#41;</font>
+        </li>
+        <li>
+          <font color="#ff7700">print</font><font>&#40;</font>MC<font
+            >&#41;</font
+          >
+        </li>
+        <li><font color="#808080">#&nbsp;Q2.</font></li>
+        <li>&nbsp;</li>
+        <li>
+          <font color="#ff7700">print</font
+          ><font>&#40;</font>cesar<font>&#40;</font>MC<font color="#66cc66"
+            >,</font
+          >-<font color="#ff4500">9</font><font>&#41;</font><font>&#41;</font>
+        </li>
+        <li>&nbsp;</li>
+        <li>
+          <font color="#ff7700">def</font>&nbsp;decesar<font>&#40;</font>m<font
+            color="#66cc66"
+            >,</font
+          >d<font>&#41;</font>:
+        </li>
+        <li>
+          &nbsp;&nbsp;&nbsp;&nbsp;<font color="#ff7700">return</font
+          ><font>&#40;</font>cesar<font>&#40;</font>m<font color="#66cc66"
+            >,</font
+          >-d<font>&#41;</font><font>&#41;</font>
+        </li>
+        <li>
+          <font color="#808080"
+            >#ex&nbsp;:&nbsp;0-3&nbsp;=&nbsp;-3%26&nbsp;=&nbsp;-3&nbsp;==&gt;&nbsp;alphabet[-3]&nbsp;=&nbsp;'X'</font
+          >
+        </li>
+        <li>
+          decesar<font>&#40;</font>MC<font color="#66cc66">,</font
+          ><font color="#ff4500">3</font><font>&#41;</font>
+        </li>
+        <li>&nbsp;</li>
+      </ol>
+    </blockquote>
+  </body>
+</html>

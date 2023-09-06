@@ -1,47 +1,33 @@
 ---
 sidebar_position: 1
+title: "Accueil"
 ---
 
-# Tutorial Intro
+# Welcome to My Portfolio
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Bonjour ! Je suis **Anis SAIED** , et c'est avec plaisir que je vous accueille sur mon site web portfolio.
 
-## Getting Started
+Ici, vous trouverez une sélection soigneusement organisée de mon travail, de mes compétences et de mon expérience. 
 
-Get started by **creating a new site**.
+Que vous soyez un employeur potentiel, un collègue ou simplement curieux de mon parcours, je vous invite à explorer ce que j'ai à offrir.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## À propos de moi
 
-### What you'll need
+Je suis *Ingénieur logiciel* passionné par le *développement d'applications web*.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Je suis doué pour résoudre des problèmes difficiles, j'adore apprendre de nouvelles technologies et je suis toujours à la recherche de nouvelles idées innovantes.
 
-## Generate a new site
+Au fil des ans, j'ai eu le privilège de travailler sur divers projets qui m'ont permis de grandir tant sur le plan professionnel que personnel.
 
-Generate a new Docusaurus site using the **classic template**.
+Ce que vous trouverez ici
 
-The classic template will automatically be added to your project after you run the command:
+- **Projets** : Parcourez une sélection de mes projets et découvrez comment j'ai appliqué mes compétences à des défis du monde réel. Chaque projet est accompagné d'une brève description et met en valeur mes compétences en:
+  - Programmation orientée objet (POO)
+  - Développement web front-end
+  - Développement web back-end
+  - Gestion de bases de données SQL
+  - Automatisation des processus
+- **Compétences** : Apprenez à connaître mes compétences techniques et comportementales. De la programmation à la gestion de projet, je suis déterminé à apprendre en permanence et à m'améliorer.
+- **CV** : Téléchargez mon CV pour obtenir une vue d'ensemble complète de mon parcours académique, de mon expérience professionnelle et de mes réalisations. 
+- **Contact** : Si vous êtes intéressé par une collaboration, n'hésitez pas à me contacter.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.

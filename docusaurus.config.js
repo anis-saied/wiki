@@ -62,12 +62,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/developer_activity.svg',
+      image: 'https://avatars1.githubusercontent.com/u/69865343?s=460&v=4',
       navbar: {
         title: 'Anis SAIED',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/developer_activity.svg',
+          src: 'https://avatars1.githubusercontent.com/u/69865343?s=460&v=4',
         },
         items: [
           {to: '/projects', label: 'Projets', position: 'left'},
@@ -80,14 +80,14 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/anis-saied',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
       footer: {
-        style: 'dark',
+        // style: 'dark',
         links: [
           {
             title: 'Projects',

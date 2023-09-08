@@ -12,18 +12,20 @@ const FeatureList = [
         <br />
         Chaque projet est une histoire en soi, une solution à un défi, et une
         démonstration de mes compétences en action.
+        <br />
+        <button class="button button--link"><a href="/projects">Parcourir mes projets</a></button>
       </>
     ),
   },
   {
-    title: "Compétences",
+    title: "Tutoriels",
     Svg: require("@site/static/img/innovative.svg").default,
     description: (
       <>
-        Je possède une large gamme de compétences en développement de logiciels,
-        de la conception à la mise en œuvre. <br />
-        Mes compétences couvrent la programmation, la gestion de bases de
-        données, la sécurité et bien plus encore..
+        Parcourez mes guides de développement logiciel, incluant des conseils,
+        les dernières nouveautés et des astuces pratiques.
+         <br />
+        <button class="button button--link"><a href="/docs/intro">Parcourir mes tutoriels</a></button>
       </>
     ),
   },
@@ -32,11 +34,11 @@ const FeatureList = [
     Svg: require("@site/static/img/cv.svg").default,
     description: (
       <>
-        Je suis un passionné de technologie avec une mission : créer des
-        logiciels exceptionnels qui font une différence.
+        Passionné de technologie, je crée des logiciels qui font la différence.
         <br />
-        Découvrez qui je suis, mon parcours et ma vision du développement de
-        logiciels.
+        Découvrez qui je suis et mon parcours et mes compétences.
+        <br />
+        <button class="button button--link"><a href="/cv">Voir mon CV</a></button>
       </>
     ),
   },

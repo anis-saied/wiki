@@ -38,7 +38,7 @@ export default function Home() {
               <h1 class="hero__title">Anis SAIED</h1>
               <p class="hero__subtitle">
                 <strong><h2>Full-Stack Developer</h2></strong>VueJS, Python,
-                    Java and More ..
+                    Java and More ...
               </p>
               <div>
               <div class="button-group button-group--block">

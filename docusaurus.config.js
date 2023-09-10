@@ -64,13 +64,13 @@ const config = {
         items: [
           { to: "/projects", label: "Projets", position: "left" },
           { to: "/cv", label: "CV", position: "left" },
-          {
+          /*           {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Tutorial",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "Blog", position: "left" }, */
           {
             href: "https://github.com/anis-saied",
             label: "GitHub",
@@ -82,15 +82,19 @@ const config = {
         // style: 'dark',
         links: [
           {
-            title: "Projects",
+            title: "Last projects",
             items: [
               {
                 label: "Ipein notes",
-                to: "/projects/ipein",
+                to: "https://anis-saied.github.io/ipein",
               },
               {
                 label: "E-commerce Vue JS app",
                 to: "/projects/e-commerce-vue-js",
+              },
+              {
+                label: "Show more...",
+                to: "/projects",
               },
             ],
           },
@@ -111,7 +115,7 @@ const config = {
               },
             ],
           },
-          {
+          /*           {
             title: "More",
             items: [
               {
@@ -123,7 +127,7 @@ const config = {
                 to: "/docs/intro",
               },
             ],
-          },
+          }, */
         ],
         copyright: `Copyright © ${new Date().getFullYear()} This website was created
           by Anis SAIED with Docusaurus.`,

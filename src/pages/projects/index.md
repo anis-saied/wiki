@@ -2,12 +2,19 @@
 sidebar_position: 1
 title: "Projets"
 ---
+
+
 # Projets
 Bonjour ! Je suis **Anis SAIED**, et je suis ravi de vous accueillir sur mon site web portfolio.
 
 Ici, vous trouverez une sélection méticuleusement organisée de mon travail, de mes compétences et de mon expérience.
 
 Que vous soyez un employeur potentiel, un collègue ou simplement curieux de mon parcours, je vous invite à explorer ce que j'ai à offrir.
+
+```mdx-code-block
+import TOCInline from '@theme/TOCInline';
+```
+
 
 ## Static Sites
 

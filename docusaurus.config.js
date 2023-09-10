@@ -62,15 +62,15 @@ const config = {
           src: "https://avatars1.githubusercontent.com/u/69865343?s=460&v=4",
         },
         items: [
-          { to: "/projects", label: "Projects", position: "left" },
+           { to: "/projects", label: "Projects", position: "left" },
           { to: "/cv", label: "CV", position: "left" },
-          /*           {
+          {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Tutorial",
+            label: "Wiki",
           },
-          { to: "/blog", label: "Blog", position: "left" }, */
+          /* { to: "/blog", label: "Blog", position: "left" }, */
           {
             href: "https://github.com/anis-saied",
             label: "GitHub",

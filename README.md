@@ -17,6 +17,12 @@ npx docusaurus start
 ```
 Open `http://localhost:3000` and follow the tutorial.
 
+## deployment
+doc in [deployment](https://docusaurus.io/docs/deployment)
+1. build static files : `npm run build` 
+2. test builded files locally : `npm run serve`
+3. deploy to [Github pages](https://docusaurus.io/docs/deployment#deploying-to-github-pages)
+
 ## resources
 ### SSG
 - [docusaurus](https://docusaurus.io/)

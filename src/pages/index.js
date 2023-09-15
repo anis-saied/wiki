@@ -35,9 +35,9 @@ export default function Home() {
         <div class="col col--8 col--offset-2 margin-vert--md">
           <div class="hero">
             <div class="container">
-              <h1 class="hero__title">Anis SAIED</h1>
+              <h1 class="hero__title">{siteConfig.title}</h1>
               <p class="hero__subtitle">
-                <strong><h2>Full-Stack Developer</h2></strong>VueJS, Python,
+                <strong><h2>{siteConfig.tagline}</h2></strong>VueJS, Python,
                     Java and More ...
               </p>
               <div>

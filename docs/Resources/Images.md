@@ -11,10 +11,13 @@ Images resources on the web
 
 ## Illustrations
 - [unDraw](https://undraw.co/search)
+- [drawit](https://www.drawkit.com/illustration-types/all)
 - [designstripe](https://designstripe.com/search/illustrations?sort=free)
 
 ## Emoji
--[emojipedia](https://emojipedia.org/stopwatch)
+- [emojipedia](https://emojipedia.org/stopwatch)
+
+- [Github Emojis](https://api.github.com/emojis) via REST API
 
 ## Edit images
 ### Remove background

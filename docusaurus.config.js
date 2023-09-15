@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Anis SAIED",
-  tagline: "Full-Stack Developer",
+  tagline: "Full Stack Software Engineer",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here

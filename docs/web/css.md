@@ -11,7 +11,13 @@ sidebar_position: 2
 ## CSS Style generators
 - [toptal](https://www.toptal.com/developers/css3maker)
 
+## Colors
+
+- [https://www.happyhues.co/](https://www.happyhues.co/)
+- 
+
 ## badges
+
 - Static and dynamic badges with [shields](https://https://shields.io/.io/)
 
 ## text

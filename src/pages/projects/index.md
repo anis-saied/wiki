@@ -58,7 +58,5 @@ import TOCInline from '@theme/TOCInline';
 - [GitHub Actions](https://docs.github.com/en/actions): Un service d'automatisation fourni par GitHub pour automatiser diverses tâches liées au développement logiciel, y compris le déploiement de code sur GitHub Pages.
 
 ## Vue JS Applications
-### Fo5art.tn E-commerce Store
-Je suis un *Ingénieur logiciel* passionné par le *développement d'applications web*.
-
-Je suis compétent pour résoudre des problèmes complexes, j'adore apprendre de nouvelles technologies, et je suis toujours en quête de nouvelles idées innovantes.
+### E-commerce Store
+En cours ...

@@ -50,7 +50,7 @@ const router = createRouter({
 
 export default router;
 ```
-in `export default router;` the `router` will be imported in `main.js` with `import router from './router'`
+in `export default router;` the `router` will be imported in `main.js` with `import router from './router'` from `/src/router/index.js`
 
 ## pinia
 1. install `pinia`
@@ -71,6 +71,41 @@ const pinia = createPinia()
 app.use(pinia)
 
 app.mount('#app')
+```
+3. create a pinia store : 
+
+Create a `/src/stores/<id>-store.js` for shared state. 
+
+Example `main-store.js`:
+```js
+import { defineStore } from "pinia";
+import { ref } from "vue";
+
+export const useMainStore = defineStore("main", () => {
+  const query = ref("");
+  const doc = ref(null); // Initialize doc as null
+  const docList = ref([]); // Initialize docList as an empty array
+
+  return {
+    query,
+    doc,
+    docList
+  };
+});
+```
+3. To use `pinia` in a vue component :
+
+In the component script:
+```html
+<script setup>
+import { useMainStore } from "../stores/main-store"
+
+const mainStore = useMainStore()
+</script>
+```
+Then in the component template:
+```html
+<input type="search" v-model="mainStore.query"/>
 ```
 
 ## axios

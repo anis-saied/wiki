@@ -1,7 +1,7 @@
 ---
-sidebar_position: 5
+sidebar_position: 1
 ---
-
+# Open API
 ## Dev API
 
 - [GitHub’s API](https://api.github.com/)

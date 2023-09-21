@@ -10,6 +10,7 @@ Install Node.js and create a new Docusaurus site:
 
 npx create-docusaurus@latest my-website classic
 
+## dev locally
 Start the site:
 ```bash
 cd my-website
@@ -23,6 +24,7 @@ doc in [deployment](https://docusaurus.io/docs/deployment)
 2. Use `npm run serve` command to test your build locally.
 3. deploy to [Github pages](https://docusaurus.io/docs/deployment#deploying-to-github-pages)
 4. [Triggering deployment with GitHub Actions](https://docusaurus.io/docs/deployment#triggering-deployment-with-github-actions)
+
 ## resources
 ### SSG
 - [docusaurus](https://docusaurus.io/)

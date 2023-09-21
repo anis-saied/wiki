@@ -66,14 +66,15 @@ Je suis prêt à relever de nouveaux défis passionnants et à contribuer au suc
 
 ## Compétences
 
-- **Langages de Programmation**: Java, Python, JavaScript
-- **Technologies Front-end**: Vue.js, HTML5, CSS3, JavaScript
-- **Technologies Back-end**: Spring Boot, PHP
-- **Base de Données**: SQL
+- **Langages de Programmation**: Java, Python, JavaScript, PHP
+- **Technologies Front-end**: Vue.js, HTML5, CSS3
+- **Technologies Back-end**: Spring Boot, Hibernate, PHP
+- **Base de Données**: SQL, SQLite
 - **Contrôle de Version**: Git
-- **Outils**: Visual Studio Code, Eclipse
-- **Tests**: JUnit
-- **DevOps**: Automatisation des déploiements (Github pages)
+- **Environnements de Développement**: Visual Studio Code, Eclipse
+- **Tests Unitaires**: JUnit, Vue Test Utils 
+- **CI/CD**: Automatisation des déploiements (GitHub Pages)
+- **Gestion de Projet**: Jira, Kanban
 
 ## Projets
 

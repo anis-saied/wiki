@@ -1,0 +1,140 @@
+// http://magjac.com/graphviz-visual-editor/
+// https://graphviz.org/Gallery/twopi/happiness.html
+
+graph happiness {
+	labelloc="t"
+	label="Mind map of Happiness.\nTwopi radial graph."
+	fontname="URW Chancery L, Apple Chancery, Comic Sans MS, cursive"
+	layout=twopi; graph [ranksep=2];
+	edge [penwidth=5 color="#f0f0ff"]
+	node [fontname="URW Chancery L, Apple Chancery, Comic Sans MS, cursive"]
+	node [style="filled" penwidth=0 fillcolor="#f0f0ffA0" fontcolor=indigo]
+	Dev [fontsize=50 fontcolor=red URL="https://en.wikipedia.org/wiki/Category:Happiness"]
+	node [fontsize=40]
+	Dev -- {
+		FrontEnd
+		Soul
+		Mind
+		BackEnd
+		Health
+	}
+	
+	Health [fontcolor=mediumvioletred]
+	node [fontsize=25]
+	API [fontcolor=orchid URL="https://en.wikipedia.org/wiki/Category:Love"]
+	API -- {
+		Giving
+		People
+		Beauty
+	}
+	Success [fontcolor=goldenrod]
+	BackEnd [fontcolor=seagreen, label="Back-end"]
+	BackEnd -- {
+		ServerSideLanguage
+		API
+		DB
+	}
+	FrontEnd [URL="",label="Front-end"]
+	FrontEnd -- {
+		HTMl
+		CSS
+		JS
+	}
+	Health -- {
+		Body
+		Recreation
+	}
+	Mind [URL="https://en.wikipedia.org/wiki/Category:Mind"]
+	Mind -- {
+		Cognition
+		Consciousness
+		Intelligence
+	}
+	Soul [URL="https://en.wikipedia.org/wiki/Soul"]
+	Soul -- {
+		Emotions
+		Self
+		Meditation
+	}
+	node [fontsize=""]
+	Beauty -- {
+		Esthetics
+		Art
+	}
+	People -- {
+		Family
+		Partner
+		Hug
+	}
+	Giving -- {
+		Feelings
+		Support
+	}
+	Self -- {
+		Delight
+		Joy
+		Expression 
+	}
+	DB -- {
+		InMemory
+		SQL
+		NoSQL
+		Document
+	}
+	Recreation -- {
+		Leisure
+		Sleep
+	}
+	Emotions [URL="https://en.wikipedia.org/wiki/Soul"]
+	Emotions -- {
+		Positiveness Tranquility
+	}
+	Self -- Emotions [weight=10 penwidth=1 style=dotted constraint=false]
+	Body -- {
+		Medicine Exercises Nutrition Water Heart
+	}
+	Wellbeing -- {
+		Home Work Finance Clothes Transport
+	}
+	CSS -- {
+		Friends Community Society
+	}
+	JS -- {
+		Doc
+		Frameworks
+		Tools
+		Resources
+		packages
+	}
+	HTML -- {
+		Native
+		Empathy
+		Help
+	}
+	Consciousness -- {
+		Awareness
+	}
+	Meditation -- {
+		Contemplation Breath
+	}
+	Cognition -- {
+		Imagination
+		Perception
+		Thinking
+		Understanding
+		Memory
+	}
+	Intelligence -- {
+		Learning
+		Experiment
+		Education
+	}
+	ServerSideLanguage[label="Langauges"]
+	ServerSideLanguage -- {
+		Python
+		Java
+		NodeJS
+		PHP
+	}
+	c [label="© 2020-2022 Costa Shulyupin" fontsize=12 shape=plain style="" fontcolor=gray]
+}

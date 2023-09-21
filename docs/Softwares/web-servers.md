@@ -13,7 +13,6 @@ on ubuntu,
 ```bash
 cd /opt/lampp
 sudo ./xampp start
-
 ```
 
 To view all possibilities

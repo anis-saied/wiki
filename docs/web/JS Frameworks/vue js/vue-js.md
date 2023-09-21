@@ -4,6 +4,13 @@ sidebar_position: 1
 
 # Vue JS Overview 
 
+## Modern mode
+
+**Modern Mode**  in Vue.js allows you to serve a separate version of your application to modern browsers that support ES modules, native dynamic imports, and other modern JavaScript features. This can lead to better performance and smaller bundle sizes for compatible browsers.
+## Polyfills
+
+**Polyfills:**  are code snippets that provide modern functionality to older browsers that lack support for certain features. By auto-detecting browser capabilities and serving polyfills only to browsers that need them, you can ensure a consistent experience across different environments.
+
 ## Learning path
 
 -[https://www.vuemastery.com/learning-path/beginner](https://www.vuemastery.com/learning-path/beginner)
@@ -49,6 +56,38 @@ You can use these starter templates (clone github repository)
 - [Vue 3 + Element Plus + Vite](https://vite-starter.element-plus.org/)
 - [Element Plus With NuxtJS](https://element-plus-nuxt.vercel.app/)
 - [element-plus-in-laravel-starter](https://github.com/element-plus/element-plus-in-laravel-starter)
+
+## Vue JS admin templates
+- [https://vera0119.github.io/vue-admin/#/dashboard](https://vera0119.github.io/vue-admin/#/dashboard)
+
+## unit testing utility library for Vue.js
+- [Vue Test Utils](https://v1.test-utils.vuejs.org/) is the official unit testing utility library for Vue.js.
+
+When using Vue Test Utils for unit testing Vue.js components, you can choose from a variety of testing tools and libraries to enhance your testing capabilities. Here are some commonly used tools and libraries that pair well with Vue Test Utils:
+
+    Jest: Jest is a popular JavaScript testing framework that works seamlessly with Vue Test Utils. It provides features like test runners, assertion libraries, mocking, and code coverage reporting. Jest is commonly used for unit testing Vue components.
+        Jest Website
+
+    Vue Test Utils with Vue CLI: If you're using Vue CLI to scaffold and manage your Vue.js projects, Vue Test Utils is often integrated by default. Vue CLI provides a testing setup with Jest and Vue Testing Library, making it easy to get started with Vue component testing.
+        Vue CLI
+
+    Vue Testing Library: Vue Testing Library is a library that encourages testing Vue components in a way that mimics how they are used by end-users. It promotes testing component behavior from a user's perspective and avoiding testing implementation details.
+        Vue Testing Library
+
+    @vue/test-utils-jest: This is an additional library specifically designed for Jest integration with Vue Test Utils. It simplifies certain aspects of Vue component testing when using Jest as the test runner.
+        vue-test-utils-jest
+
+    Cypress: While Cypress is more commonly associated with end-to-end testing, it can be used in combination with Vue Test Utils to create a comprehensive testing strategy that covers both unit and end-to-end testing for your Vue.js application.
+        Cypress Website
+
+    Sinon: Sinon is a library for creating spies, mocks, and stubs in JavaScript tests. It can be useful when you need to mock external dependencies or spy on function calls within your Vue components.
+        Sinon
+
+    Vue Router and Vuex: If your Vue.js application uses Vue Router for routing or Vuex for state management, you may want to consider tools and plugins that are specifically designed for testing these aspects of your application.
+        Vue Router Testing
+        Vuex Testing
+
+The choice of which tools to use alongside Vue Test Utils depends on your specific testing needs and preferences. Jest, Vue Testing Library, and Vue CLI are commonly used and provide a good starting point for unit testing Vue components. You can also integrate other tools and libraries as needed based on your project's requirements.
 
 ## how to use vue js
 

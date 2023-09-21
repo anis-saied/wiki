@@ -14,7 +14,7 @@ sidebar_position: 2
 ## Colors
 
 - [https://www.happyhues.co/](https://www.happyhues.co/)
-- 
+- [colorbrewer2.org](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
 
 ## badges
 

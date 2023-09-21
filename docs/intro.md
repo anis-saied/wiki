@@ -3,8 +3,6 @@ sidebar_position: 1
 title: "Accueil"
 ---
 
-# Dev tools
+# Personal dev Wiki
 
-## VS code
-
-- **codium**: AI assistance 
+This wiki is for me and for futur developers generations.

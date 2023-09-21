@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkanis_saied=self.webpackChunkanis_saied||[]).push([[6706],{1151:e=>{e.exports=JSON.parse('{"title":"Web","description":"Web technologies","slug":"/category/web","permalink":"/docs/category/web","navigation":{"previous":{"title":"Accueil","permalink":"/docs/intro"},"next":{"title":"JS","permalink":"/docs/web/JS/"}}}')}}]);

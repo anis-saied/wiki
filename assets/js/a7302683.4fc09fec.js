@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkanis_saied=self.webpackChunkanis_saied||[]).push([[2700],{2647:a=>{a.exports=JSON.parse('{"label":"hello","permalink":"/wiki/blog/tags/hello","allTagsPath":"/wiki/blog/tags","count":2}')}}]);

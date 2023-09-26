@@ -6,9 +6,26 @@ sidebar_position: 2
 
 ## vue-router
 
+
+### Official documentation
+
+- [router.vuejs.org](https://router.vuejs.org/installation.html)
+- [Github repository](https://github.com/vuejs/router)
+
+### rooter cheat-sheet
+
+- [pdf](Vue-Router-Cheat-Sheet.pdf)
+
+
+## Tutorials
+
+- [https://stackabuse.com/guide-to-vue-router/](https://stackabuse.com/guide-to-vue-router/)
+
+
+## install
 1. install `vue-router`
 ```bash
-npm install vue-router
+npm install vue-router@4
 ```
 
 2. Add `vue-router` to the vue js app in the `main.js` file :

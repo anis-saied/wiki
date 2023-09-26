@@ -68,7 +68,7 @@ Je suis prêt à relever de nouveaux défis passionnants et à contribuer au suc
 
 - **Langages de Programmation**: Java, Python, JavaScript, PHP
 - **Technologies Front-end**: Vue.js, HTML5, CSS3
-- **Technologies Back-end**: Spring Boot, Hibernate, PHP
+- **Technologies Back-end**: Spring Boot/MVC, Hibernate, PHP
 - **Base de Données**: SQL, SQLite
 - **Contrôle de Version**: Git
 - **Environnements de Développement**: Visual Studio Code, Eclipse

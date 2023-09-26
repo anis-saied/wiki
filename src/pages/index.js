@@ -27,6 +27,7 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
+
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Anis SAIED portfolio"
@@ -38,23 +39,23 @@ export default function Home() {
               <h1 class="hero__title">{siteConfig.title}</h1>
               <p class="hero__subtitle">
                 <strong><h2>{siteConfig.tagline}</h2></strong>VueJS, Python,
-                    Java and More ...
+                Java, Spring and More ...
               </p>
               <div>
-              <div class="button-group button-group--block">
-                <Link className="button button--secondary" to="/projects">
-                  Projets
-                </Link>
-                <Link className="button button--secondary" to="/cv">
-                  CV
-                </Link>
-              </div>
+                <div class="button-group button-group--block">
+                  <Link className="button button--secondary" to="/projects">
+                    Projets
+                  </Link>
+                  <Link className="button button--secondary" to="/cv">
+                    CV
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
-          
         </div>
       </main>
+
     </Layout>
   ); /* <HomepageHeader /> <HomepageFeatures />
           <div class="avatar avatar--vertical">
